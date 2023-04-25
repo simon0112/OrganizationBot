@@ -2345,4 +2345,4 @@ async def on_application_command_error(ctx: discord.Interaction, error: discord.
 
 
 client.run(
-    'MTA5MDQ0NTc1MzQzMzk4MTAxOQ.GD6nze.CvDB3eXjGhIU-UkahErsDVhTmBMcLYHiHSWjPM')
+    'BUT TOKEN HERE')
