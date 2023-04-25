@@ -1,0 +1,74 @@
+{
+    "1": {
+        "name": "test1",
+        "base level": 2,
+        "gold": 999999999999994398,
+        "intrigue": 0,
+        "id": 1,
+        "leader": 246913471415844864,
+        "users": [],
+        "totalIncome": 250.0,
+        "totalUpkeep": 0,
+        "riot": true,
+        "riotChance": 100,
+        "ABfront": 0,
+        "BMfront": 1,
+        "bribes": false,
+        "production level up": 0,
+        "money cut": 3,
+        "upgrade base": 1,
+        "guard": 0,
+        "ambusher": 5,
+        "custom units": {
+            "TestyTest": {
+                "offense": 1,
+                "defense": 1,
+                "loyalty": 1,
+                "speed": 1
+            }
+        },
+        "guardhouse": 0,
+        "spy": [
+            "test2",
+            "test",
+            "test2"
+        ],
+        "sabotage": {},
+        "espionage": {},
+        "delegacy": false,
+        "loyalty campaign": {},
+        "diplomatic maneuvers": {}
+    },
+    "2": {
+        "name": "test2",
+        "base level": 1,
+        "gold": 9999999999999,
+        "intrigue": 0,
+        "id": 2,
+        "leader": 1046911344538025984,
+        "users": [],
+        "totalIncome": 50.0,
+        "totalUpkeep": 0,
+        "riot": false,
+        "riotChance": 0,
+        "ABfront": 0,
+        "BMfront": 0,
+        "bribes": false,
+        "production level up": 0,
+        "money cut": 0,
+        "upgrade base": 0,
+        "guard": 0,
+        "ambusher": 0,
+        "custom units": {},
+        "guardhouse": 0,
+        "spy": [
+            "test",
+            "test"
+        ],
+        "sabotage": {},
+        "espionage": {},
+        "delegacy": false,
+        "loyalty campaign": {},
+        "diplomatic maneuvers": {}
+    }
+}

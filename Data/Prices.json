@@ -1,0 +1,25 @@
+{
+    "Establish Front": 500,
+    "Production Level Up": 1000,
+    "Upgrade Base": 1000,
+    "Farms": 1000,
+    "Roads": 500,
+    "Capital": 3000,
+
+    "Hire Spy": 1000,
+    "Sabotage": "*variable*",
+    "Espionage": 2000,
+
+    "Guard": 10,
+    "Ambusher": 20,
+    "Custom Units": "*variable",
+    "Guardhouse": 2500,
+    "Militia": 10,
+    "Militia Archer": 20,
+    "Custom Troops": "*variable*",
+    "Barracks": 2500,
+
+    "Embassy": 3000,
+    "Loyalty Campaign": 3000,
+    "Diplomatic Maneuvers": "*variable*"
+}
