@@ -17,8 +17,8 @@ intents = discord.Intents.default()
 intents.message_content = True
 client = discord.Client(intents=intents)
 tree = app_commands.CommandTree(client)
-opRoles = [687105162569187430, 761621207270948874, 1047119025332813925]
-DeltaBotChannel = 1046913052089524336 #This is the Bot-Testing guild, general chat
+opRoles = 
+BotChannel =  #This is the Bot-Testing guild, general chat
 
 @client.event
 async def on_ready():
@@ -127,7 +127,7 @@ async def riotCalc():
     facs = fileFromGroupType("Faction")
     orgs = fileFromGroupType("Organization")
     
-    channel = client.get_channel(DeltaBotChannel)
+    channel = client.get_channel(BotChannel)
         
     for org in orgs:
         if orgs[org] != "Available":
@@ -464,7 +464,7 @@ def cleanGroups():
     facs = fileFromGroupType("Faction")
     orgs = fileFromGroupType("Organization")
     
-    guild = client.get_channel(DeltaBotChannel).guild
+    guild = client.get_channel(BotChannel).guild
     
     for fac in facs:
         for userIndex in range(len(facs[fac]["users"])):
@@ -527,7 +527,7 @@ async def buyInfrastructure(name:str, ctx:discord.Interaction, item:str) -> bool
     with open(priceFile, "r") as f:
         prices = json.load(f)
     
-    channel = client.get_channel(DeltaBotChannel)
+    channel = client.get_channel(BotChannel)
     factionOnly = ["road", "capital", "farm"]
     organizationOnly = ["upgrade base", "front", "production level up"]
     
@@ -664,7 +664,7 @@ async def buyIntrigue(name:str, ctx:discord.Interaction, item:str) -> bool:
     with open(priceFile, "r") as f:
         prices = json.load(f)
         
-    channel = client.get_channel(DeltaBotChannel)
+    channel = client.get_channel(BotChannel)
     
     item = item.lower()
     
@@ -722,7 +722,7 @@ async def buyMilitary(name:str, ctx:discord.Interaction, item:str) -> bool:
     
     item = item.lower()
     
-    channel = client.get_channel(DeltaBotChannel)
+    channel = client.get_channel(BotChannel)
     factionOnly = ["militia", "archer", "custom troop", "barrack"]
     organizationOnly = ["guard", "ambusher", "custom unit", "guardhouse"]
     
@@ -931,7 +931,7 @@ async def buyStatecraft(name:str, ctx:discord.Interaction, item:str) -> bool:
     with open(priceFile, "r") as f:
         prices = json.load(f)
     
-    channel = client.get_channel(DeltaBotChannel)
+    channel = client.get_channel(BotChannel)
     
     item = item.lower()
     
